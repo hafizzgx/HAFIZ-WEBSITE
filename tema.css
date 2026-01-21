@@ -1,0 +1,264 @@
+segitiga {
+  margin-bottom:100% ;
+  width: 300px;
+  height: 250px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  font-family: sans-serif;
+}
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.kotak-tumpul {
+  margin-bottom: 100%;
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.kotak-tumpul img {
+  margin-bottom: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+h3 {
+  text-align: center;
+    font-style:sans-serif;
+    font-size: 5px;
+    margin-bottom: 30%;
+    background: linear-gradient(324deg, #ffffff, #333399, blue, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glow 2s infinite alternate;
+}
+
+
+
+img {
+ max-width:100%;
+ height:auto;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+
+.kotak-tumpul {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #ddd;
+  
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.kotak-tumpul img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+
+
+
+h1{
+ text-align: center;
+    font-style: sans-serif;
+    font-size: 2em;
+    margin-bottom: 30px;
+    background: linear-gradient(45deg, #00ffff, #ff00ff, #00ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glow 2s infinite alternate;
+}
+
+h2 {
+  text-align: center;
+  font-size: 12px;
+  background: linear-gradient(199deg, #ff00cc, #00ffff, #ffffff, #ff00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+  animation: glow 3s infinite alternate;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: ;
+    color: #fff;
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* Galaxy Background */
+.galaxy-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: radial-gradient(ellipse at center, #1a0033 0%, #000011 50%, #000000 100%);
+}
+
+.stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.star {
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    animation: twinkle 3s infinite;
+}
+
+@keyframes twinkle {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 1; }
+}
+
+.planet {
+    position: fixed;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.planet1 {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle at 30% 30%, #ff6b6b, #4a0e0e);
+    top: 10%;
+    right: 10%;
+    animation: float 20s infinite ease-in-out;
+}
+
+.planet2 {
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(circle at 30% 30%, #6b9fff, #0e2a4a);
+    bottom: 20%;
+    left: 5%;
+    animation: float 25s infinite ease-in-out reverse;
+}
+
+.planet3 {
+    width: 150px;
+    height: 154px;
+    background: radial-gradient(circle at 30% 40%, grey, #0e2a4a);
+    bottom: 30%;
+    left: 16em;
+    animation: float 25s infinite ease-in-out reverse;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-30px) rotate(180deg); }
+}
+
+.aurora {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(45deg, transparent 0%, rgba(0, 255, 255, 0.1) 25%, rgba(255, 0, 255, 0.1) 50%, rgba(0, 255, 255, 0.1) 75%, transparent 100%);
+    animation: aurora-flow 15s infinite linear;
+}
+
+@keyframes aurora-flow {
+    0% { transform: translateX(-100%) rotate(0deg); }
+    100% { transform: translateX(100%) rotate(360deg); }
+}
+
+/* Main Container */
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.lingkaran {
+  margin-bottom: -150%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.lingkaran img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h4{
+  text-align: center;
+    font-style:sans-serif;
+    font-size: 5px;
+    margin-bottom: 90%;
+    background: linear-gradient(324deg, #ff00cc, #333399, blue, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glow 2s infinite alternate;
+}
+
+LIngkaran img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.LIngkaran {
+    width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #ddd;
+  
+
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h5{
+  background: linear-gradient(248deg, #ff00cc, #ffffff, #ff00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glow 2s infinite alternate;
+    font-display: sans-serif;
+    font-size: 5px;
+    margin-bottom: 76%;
+  }
